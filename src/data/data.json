@@ -1,21 +1,22 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "The Strategic Growth Partner for your Organization.",
+    "paragraph": "Give us your business goal. We'll engineer the system to hit it."
   },
+  
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Scenius Solutions is not your typical tech company — we are Africa’s strategic digital growth partner. We exist to transform businesses by engineering powerful digital systems that don’t just solve problems — they unlock revenue, scale operations, and redefine market presence. Our philosophy is rooted in strategic execution: we don’t deliver websites, we deliver growth engines. Whether you're a scaling SME or an enterprise seeking transformation, we blend deep business understanding with digital innovation to drive exponential outcomes.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "We focus on business strategy, not just software.",
+      "We build digital systems that increase revenue and reduce cost.",
+      "We create tailor-made infrastructure that evolves with your business.",
+      "We don’t just support growth — we engineer it."
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Proven frameworks built from African market insight.",
+      "End-to-end solutions: from platforms to payments to performance.",
+      "Data-driven innovation with measurable ROI.",
+      "We act as your digital CTO — driving results long after deployment."
     ]
   },
   "Gallery": [
@@ -65,38 +66,40 @@
       "smallImage": "img/portfolio/09-small.jpg"
     }
   ],
+
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-cogs",
+      "name": "Digital Growth Infrastructure",
+      "text": "We build robust digital systems — from e-commerce platforms to intelligent business dashboards — tailored to fuel revenue growth, scale operations, and unlock new market opportunities."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-credit-card",
+      "name": "Smart Payment Integration",
+      "text": "Enable seamless transactions by integrating secure mobile money, card payment, and custom APIs — giving your customers multiple ways to pay, and you, multiple ways to earn."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-line-chart",
+      "name": "Performance & Market Expansion",
+      "text": "Accelerate your customer acquisition and expand market reach with strategic growth funnels, digital campaigns, and data-backed positioning that puts your brand at the forefront."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-gears",
+      "name": "Operational Efficiency Systems",
+      "text": "Streamline day-to-day operations with automated logistics, CRM, and ERP solutions — reducing overhead, minimizing manual work, and maximizing output."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-flask",
+      "name": "Scenius Labs (R&D Division)",
+      "text": "We research, design, and deploy custom tech solutions across industries — from AgriTech to Retail — using a test-and-learn model to spark real-world innovation."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-cube",
+      "name": "Growth as a Service (GaaS)",
+      "text": "Partner with us long-term. We’ll act as your digital CTO — building, optimizing, and innovating continuously so your business keeps evolving and dominating your space."
     }
   ],
+
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
@@ -152,11 +155,11 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "Nairobi, Kenya ",
+    "phone": "+254 113 255 873",
+    "email": "sceniussolutions@gmail.com",
     "facebook": "fb.com",
-    "twitter": "twitter.com",
+    "twitter": "https://x.com/SceniusSolution",
     "youtube": "youtube.com"
   },
   "Features": [
