@@ -228,18 +228,18 @@ a:focus,
   width: 100%;
   padding: 0;
   background: url(../img/intro-bg.jpg) center center no-repeat;
-  background-color: #e5e5e5;
+  background-color: #7DF9FF;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 .intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(125, 249, 255, 0.2);
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  color: #1A1A1A;
   font-size: 82px;
   font-weight: 700;
   text-transform: uppercase;
@@ -252,11 +252,12 @@ a:focus,
 }
 .intro p {
   color: #1A1A1A;
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 300;
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
+  font-style: oblique;
 }
 header .intro-text {
   padding-top: 350px;
@@ -282,6 +283,7 @@ header .intro-text {
 /* About Section */
 #about {
   padding: 100px 0;
+  background-color: #7DF9FF;
 }
 #about h3 {
   font-size: 22px;
@@ -318,7 +320,7 @@ header .intro-text {
 #about img {
   width: 520px;
   margin-top: 10px;
-  background: #fff;
+  background: #7DF9FF;
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
@@ -360,7 +362,7 @@ header .intro-text {
   padding: 40px 0;
   background: linear-gradient(to right, #B78628 0%, #FFD700 100%);
   border-radius: 50%;
-  color: #fff;
+  color: #7DF9FF;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 #services h3 {
@@ -424,48 +426,82 @@ header .intro-text {
   opacity: 1;
 }
 /* Testimonials Section */
-#testimonials {
+/* Blog Section */
+#blog {
   padding: 100px 0;
-  background: #f6f6f6;
+  background: #7DF9FF;
+  color: #fff;
 }
-#testimonials i {
-  color: #e6e6e6;
-  font-size: 32px;
-  margin-bottom: 20px;
+
+#blog .section-title h2 {
+  color: #1A1A1A;
+  font-weight: 700;
 }
-.testimonial {
-  position: relative;
-  padding: 20px;
-}
-.testimonial-image {
-  float: left;
-  margin-right: 15px;
-}
-.testimonial-image,
-.testimonial-image img {
-  display: block;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-}
-.testimonial-content {
-  position: relative;
-  overflow: hidden;
-}
-.testimonial-content p {
-  margin-bottom: 0;
-  font-size: 14px;
-  font-style: italic;
-}
-.testimonial-meta {
+
+#blog .section-title p {
+  color: #1A1A1A;
+  font-size: 16px;
   margin-top: 10px;
-  font-size: 15px;
-  font-weight: 600;
-  color: #666;
 }
+
+.blog-card {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  height: 50%;
+}
+
+.blog-card:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.blog-thumbnail img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.blog-content h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #1A1A1A;
+}
+
+.blog-content p {
+  font-size: 15px;
+  color: #1A1A1A;
+  margin-bottom: 15px;
+}
+
+.read-more-btn {
+  color: #000;
+  background: #fff;
+  padding: 8px 16px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.read-more-btn:hover {
+  background: #222;
+  color: #fff;
+}
+
 /* Team Section */
 #team {
   padding: 100px 0;
+  background-color: #7DF9FF;
 }
 #team h4 {
   margin: 5px 0;
@@ -529,7 +565,7 @@ header .intro-text {
 }
 #contact .btn-custom:hover {
   color: #1f386e;
-  background: #fff;
+  background: #7DF9FF;
 }
 label {
   font-size: 12px;
@@ -544,7 +580,7 @@ label {
   font-size: 16px;
   line-height: 1.42857143;
   color: #444;
-  background-color: #fff;
+  background-color: #7DF9FF;
   background-image: none;
   border: 1px solid #ddd;
   border-radius: 0;
@@ -599,17 +635,17 @@ label {
   height: 48px;
   padding: 12px 0;
   border: 2px solid #fff;
-  color: #fff;
+  color: #7DF9FF;
   border-radius: 50%;
   transition: all 0.3s;
 }
 #contact .social i.fa:hover {
   color: #1A1A1A;
-  background: #fff;
+  background: #7DF9FF;
 }
 /* Footer Section*/
 #footer {
-  background: #f6f6f6;
+  background: #7DF9FF;
   padding: 30px 0;
 }
 #footer p {

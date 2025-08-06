@@ -153,7 +153,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            <a href="http://www.templatewire.com" rel="nofollow">
+            <a href="https://sceniussolutions.onrender.com/" rel="nofollow">
               Scenius Solutions
             </a>
             &copy; 2025 All Rights Reserved.{" "}
