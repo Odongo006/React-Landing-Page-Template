@@ -181,6 +181,60 @@ hr {
 .section-title p {
   font-size: 18px;
 }
+.container, .container-fluid {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+#menu .navbar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#menu .logo-img {
+  height: 40px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  #menu .logo-img {
+    height: 30px;
+  }
+
+  #menu .navbar-header {
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .navbar-collapse {
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .navbar-nav {
+    margin: 0;
+  }
+
+  .navbar-nav li {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 10px 0;
+  }
+}
+.navbar-fixed-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
 .btn-custom {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
@@ -458,7 +512,7 @@ header .intro-text {
 }
 
 .blog-card:hover {
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 30px rgba(255, 215, 0, 0.8);
   transform: translateY(-5px);
 }
 
@@ -485,7 +539,7 @@ header .intro-text {
 
 .read-more-btn {
   color: #000;
-  background: #fff;
+  background: #FFD700;
   padding: 8px 16px;
   border-radius: 25px;
   text-decoration: none;
