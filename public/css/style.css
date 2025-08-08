@@ -63,7 +63,7 @@ ol {
 }
 hr {
   height: 2px;
-  width: 70px;
+  width: 100px;
   text-align: center;
   position: relative;
   background: #1e7a46;
@@ -72,7 +72,7 @@ hr {
 }
 /* Navigation */
 #menu {
-  padding: 15px;
+  padding: 10px;
   transition: all 0.8s;
 }
 #menu.navbar-default {
@@ -95,7 +95,7 @@ hr {
 }
 
 #menu .logo-img {
-  height: 40px; /* default for large screens */
+  height: 70px; /* default for large screens */
   max-width: 100%;
   object-fit: contain;
 }
@@ -212,7 +212,7 @@ hr {
   }
 
   .navbar-collapse {
-    background-color: white;
+    background-color: #7DF9FF;
     padding: 10px;
     width: 100%;
   }
@@ -255,7 +255,7 @@ hr {
 .btn-custom.focus,
 .btn-custom:active,
 .btn-custom.active {
-  color: #fff;
+  color: #7DF9FF;
   background-image: none;
   background-color: #1A1A1A;
 }
@@ -335,10 +335,26 @@ header .intro-text {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 /* About Section */
-#about {
-  padding: 100px 0;
-  background-color: #7DF9FF;
+
+@media (max-width: 768px) {
+  #about {
+    width: 100%;
+    padding: 0;
+    background-color: #1e7a46;
+  }
 }
+#about {
+  background-color: #7DF9FF;
+  width: 100%;
+  display: flex;
+  width: 100%;
+  padding: 100px 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
 #about h3 {
   font-size: 22px;
   margin: 0 0 20px;
@@ -481,6 +497,7 @@ header .intro-text {
 }
 /* Testimonials Section */
 /* Blog Section */
+
 #blog {
   padding: 100px 0;
   background: #7DF9FF;
