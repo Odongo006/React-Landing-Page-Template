@@ -104,6 +104,15 @@ hr {
   #menu .logo-img {
     height: 30px; /* smaller logo on mobile screens */
   }
+    #about,
+  #services,
+  #testimonials,
+  #team,
+  #contact,
+  #blog,
+  #footer {
+    width: 111%;
+  }
 }
 @media screen and (max-width: 400px) {
   #features {
@@ -117,7 +126,7 @@ hr {
   #contact,
   #blog,
   #footer {
-    width: 100%;
+    width: 111%;
   }
 
   #portfolio {
@@ -224,6 +233,17 @@ hr {
   #menu .logo-img {
     height: 30px;
   }
+  .intro {
+  display: table;
+  width: 100%;
+  padding: 0;
+  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background-color: #7DF9FF;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
 
   #menu .navbar-header {
     flex-direction: row;
@@ -357,11 +377,132 @@ header .intro-text {
 /* About Section */
 
 @media (max-width: 768px) {
-  #about {
-    width: 100%;
-    padding: 0;
-    background-color: #1e7a46;
-  }
+#about {
+  background-color: #7DF9FF;
+  width: 100%;
+  display: flex;
+  width: 100%;
+  padding: 100px 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#blog {
+  padding: 100px 0;
+  background: #7DF9FF;
+  color: #fff;
+}
+
+#blog .section-title h2 {
+  color: #1A1A1A;
+  font-weight: 700;
+}
+
+#blog .section-title p {
+  color: #1A1A1A;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.blog-card {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  height: 50%;
+}
+
+.blog-card:hover {
+  box-shadow: 0 8px 30px rgba(255, 215, 0, 0.8);
+  transform: translateY(-5px);
+}
+
+.blog-thumbnail img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.blog-content h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #1A1A1A;
+}
+
+.blog-content p {
+  font-size: 15px;
+  color: #1A1A1A;
+  margin-bottom: 15px;
+}
+
+.read-more-btn {
+  color: #000;
+  background: #FFD700;
+  padding: 8px 16px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.read-more-btn:hover {
+  background: #222;
+  color: #fff;
+}
+
+#about h3 {
+  font-size: 22px;
+  margin: 0 0 20px;
+}
+#about h2 {
+  position: relative;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+#about h2::after {
+  position: absolute;
+  content: "";
+  background: linear-gradient(to left, #B78628 0%, #FFD700 100%);
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  left: 0;
+}
+#about .about-text li {
+  margin-bottom: 6px;
+  margin-left: 6px;
+  list-style: none;
+  padding: 0;
+}
+#about .about-text li:before {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  color: #FFD700;
+  font-size: 11px;
+  font-weight: 300;
+  padding-right: 8px;
+}
+#about img {
+  width: 520px;
+  margin-top: 10px;
+  background: #7DF9FF;
+  border-right: 0;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+}
+#about p {
+  line-height: 24px;
+  margin: 30px 0;
+}
 }
 #about {
   background-color: #7DF9FF;
