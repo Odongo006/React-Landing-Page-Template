@@ -1,178 +1,90 @@
-import { useState } from "react";
-import emailjs from "emailjs-com";
-import React from "react";
+import React, { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
 
-const initialState = {
-  name: "",
-  email: "",
-  message: "",
-};
+const initialState = { name: "", email: "", message: "" };
 
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  const [formData, setFormData] = useState(initialState);
+  const formRef = useRef();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setState((prevState) => ({ ...prevState, [name]: value }));
+    setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const clearState = () => setState({ ...initialState });
+  const clearState = () => setFormData(initialState);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
 
-    // Replace with your own EmailJS credentials
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+      .sendForm(
+        "service_pbxyn4b", // Your service ID
+        "template_k6spbpg", // Your template ID
+        formRef.current,    // The form reference
+        "rmmzkdNsolMwa4xGG" // Your public key
+      )
       .then(
         (result) => {
-          console.log(result.text);
+          console.log("Message sent:", result.text);
           clearState();
         },
         (error) => {
-          console.log(error.text);
+          console.error("Error sending message:", error.text);
         }
       );
   };
 
   return (
-    <div>
-      <div id="contact">
-        <div className="container">
-          <div className="col-md-8">
-            <div className="row">
-              <div className="section-title">
-                <h2>Get In Touch</h2>
-                <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
-                </p>
-              </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
-                <div className="row">
-                  <div className="col-md-6">
-                    <div className="form-group">
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        className="form-control"
-                        placeholder="Name"
-                        required
-                        onChange={handleChange}
-                      />
-                      <p className="help-block text-danger"></p>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="form-group">
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        className="form-control"
-                        placeholder="Email"
-                        required
-                        onChange={handleChange}
-                      />
-                      <p className="help-block text-danger"></p>
-                    </div>
-                  </div>
-                </div>
-                <div className="form-group">
-                  <textarea
-                    name="message"
-                    id="message"
+    <div id="contact">
+      <div className="container">
+        <div className="col-md-8">
+          <div className="row">
+            <div className="section-title">
+              <h2>Get In Touch</h2>
+              <p>Please fill out the form below to send us an email and we will get back to you as soon as possible.</p>
+            </div>
+            <form ref={formRef} onSubmit={handleSubmit}>
+              <div className="row">
+                <div className="col-md-6">
+                  <input
+                    type="text"
+                    name="name"
                     className="form-control"
-                    rows="4"
-                    placeholder="Message"
+                    placeholder="Name"
                     required
+                    value={formData.name}
                     onChange={handleChange}
-                  ></textarea>
-                  <p className="help-block text-danger"></p>
+                  />
                 </div>
-                <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
-                </button>
-              </form>
-            </div>
-          </div>
-
-          <div className="col-md-3 col-md-offset-1 contact-info">
-            <div className="contact-item">
-              <h3>Contact Info</h3>
-              <p>
-                <span>
-                  <i className="fa fa-map-marker"></i> Address
-                </span>
-                {props.data ? props.data.address : "loading"}
-              </p>
-            </div>
-            <div className="contact-item">
-              <p>
-                <span>
-                  <i className="fa fa-phone"></i> Phone
-                </span>{" "}
-                {props.data ? props.data.phone : "loading"}
-              </p>
-            </div>
-            <div className="contact-item">
-              <p>
-                <span>
-                  <i className="fa fa-envelope-o"></i> Email
-                </span>{" "}
-                {props.data ? props.data.email : "loading"}
-              </p>
-            </div>
-          </div>
-
-          <div className="col-md-12">
-            <div className="row">
-              <div className="social">
-                <ul>
-                  <li>
-                    <a href={props.data ? props.data.linkedin : "/"}>
-                      <i className="fa fa-linkedin"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-X"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.medium : "/"}>
-                      <i className="fa fa-medium"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.tiktok : "/"}>
-                      <i className="fa fa-tiktok"></i>
-                    </a>
-                  </li>
-                </ul>
+                <div className="col-md-6">
+                  <input
+                    type="email"
+                    name="email"
+                    className="form-control"
+                    placeholder="Email"
+                    required
+                    value={formData.email}
+                    onChange={handleChange}
+                  />
+                </div>
               </div>
-            </div>
+              <textarea
+                name="message"
+                className="form-control"
+                rows="4"
+                placeholder="Message"
+                required
+                value={formData.message}
+                onChange={handleChange}
+              />
+              <button type="submit" className="btn btn-custom btn-lg">
+                Send Message
+              </button>
+            </form>
           </div>
         </div>
-      </div>
-
-      <div id="footer">
-        <div className="container text-center">
-          <p>
-            <a href="https://sceniussolutions.onrender.com/" rel="nofollow">
-              Scenius Solutions
-            </a>
-            &copy; 2025 All Rights Reserved.{" "}
-          </p>
-        </div>
+        {/* Contact info section here */}
       </div>
     </div>
   );

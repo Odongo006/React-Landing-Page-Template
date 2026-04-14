@@ -19,7 +19,7 @@ export const Navigation = (props) => {
 
           <a className="navbar-brand page-scroll" href="#page-top">
             <img
-              src="img/LogoScenius.png"
+              src="img/SceniusTrpntLogo.png"
               className="logo-img"
               alt="Logo"
             />
