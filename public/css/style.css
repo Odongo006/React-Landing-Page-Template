@@ -177,7 +177,7 @@ hr {
   height: 2px !important;
   background: linear-gradient(to left, #B78628 0%, #FFD700 100%) !important;
   content: "" !important;
-  transition: width 0.2s !important;
+  transition: width 0.25s !important;
 }
 .navbar-toggle {
   border-radius: 0;
