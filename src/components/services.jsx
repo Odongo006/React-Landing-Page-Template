@@ -5,10 +5,9 @@ export const Services = (props) => {
     <div id="services" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Our Services</h2>
+          <h2>OUR ECOSYSTEM</h2>
           <p>
-            We are NOT a dev shop.
-            We ARE a digital warfare unit for business dominance.
+            We build the systems, opportunities, and networks that help businesses and talented people grow.
           </p>
         </div>
         <div className="row">

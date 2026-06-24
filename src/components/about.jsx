@@ -26,13 +26,13 @@ export const About = (props) => {
                   </ul>
                 </div>
                 <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>
+                  {/* <ul>
                     {props.data
                       ? props.data.Why2.map((d, i) => (
                           <li key={`${d}-${i}`}> {d}</li>
                         ))
                       : "loading"}
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>

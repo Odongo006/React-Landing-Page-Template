@@ -1,22 +1,16 @@
 {
   "Header": {
-    "title": "We engineer your growth.",
-    "paragraph": "Give us your Business goals, Challenges, Core-Strategy. We'll Engineer a Strategy First-Tech System to reduce cost, Improve Efficiency and Enhance Customer Journey."
+    "title": "Building the Systems Behind Business Growth and Career Opportunity",
+    "paragraph": "Scenius Solutions helps businesses scale through intelligent digital systems while helping talented professionals unlock new opportunities through education, community, and innovation."
   },
 
   "About": {
-    "paragraph": "Scenius Solutions is not your typical tech company — we are Africa’s strategic digital growth partner. We exist to transform businesses by engineering powerful digital systems that don’t just solve problems — they unlock revenue, scale operations, and redefine market presence. Our philosophy is rooted in strategic execution: we don’t deliver websites, we deliver growth engines. Whether you're a scaling SME or an enterprise seeking transformation, we blend deep business understanding with digital innovation to drive exponential outcomes.",
+    "paragraph": "Scenius Solutions is Africa's Growth Infrastructure Ecosystem. We help businesses scale through intelligent digital systems while helping talented professionals accelerate their careers through education, community, and opportunity pipelines.",
     "Why": [
-      "We focus on business strategy, not just software.",
-      "We build digital systems that increase revenue and reduce cost.",
-      "We create tailor-made infrastructure that evolves with your business.",
-      "We don’t just support growth — we engineer it."
+    "Because growth is never just about technology. It is about systems, people, and opportunities working together."
     ],
     "Why2": [
-      "Proven frameworks built from market insight.",
-      "End-to-end solutions: from platforms to payments to performance.",
-      "Data-driven innovation with measurable ROI.",
-      "We act as your digital CTO — driving results long after deployment."
+      "Scenius exists to unlock that potential. How?, By bringing together creative minds, technology, systems thinking, and opportunity networks."
     ]
   },
   "Gallery": [
@@ -69,34 +63,34 @@
 
   "Services": [
     {
-      "icon": "fa fa-cogs",
-      "name": "Digital Growth Infrastructure",
-      "text": "We build robust digital systems — from e-commerce platforms to intelligent business dashboards — tailored to fuel revenue growth, scale operations, and unlock new market opportunities."
-    },
-    {
-      "icon": "fa fa-credit-card",
-      "name": "Smart Payment Integration",
-      "text": "Enable seamless transactions by integrating secure mobile money, card payment, and custom APIs — giving your customers multiple ways to pay, and you, multiple ways to earn."
-    },
-    {
-      "icon": "fa fa-line-chart",
-      "name": "Performance & Market Expansion",
-      "text": "Accelerate your customer acquisition and expand market reach with strategic growth funnels, digital campaigns, and data-backed positioning that puts your brand at the forefront."
+      "icon": "fa fa-sitemap",
+      "name": "Digital systems",
+      "text": "We design the digital infrastructure behind modern businesses, from websites and e-commerce platforms to CRM systems, automation workflows, and operational dashboards that make growth scalable."
     },
     {
       "icon": "fa fa-gears",
-      "name": "Operational Efficiency Systems",
-      "text": "Streamline day-to-day operations with automated logistics, CRM, and ERP solutions — reducing overhead, minimizing manual work, and maximizing output."
+      "name": "Business Automation",
+      "text": "Replace repetitive manual work with intelligent systems. We automate customer journeys, operations, payments, reporting, and internal processes so your team can focus on growth."
     },
     {
-      "icon": "fa fa-flask",
-      "name": "Scenius Labs (R&D Division)",
-      "text": "We research, design, and deploy custom tech solutions across industries — from AgriTech to Retail — using a test-and-learn model to spark real-world innovation."
+      "icon": "fa fa-compass",
+      "name": "Brand & Growth Strategy",
+      "text": "We help businesses clarify positioning, strengthen digital presence, attract customers, and build sustainable growth systems that create long-term competitive advantages."
     },
     {
-      "icon": "fa fa-cube",
-      "name": "Growth as a Service (GaaS)",
-      "text": "Partner with us long-term. We’ll act as your digital CTO — building, optimizing, and innovating continuously so your business keeps evolving and dominating your space."
+      "icon": "fa fa-rocket",
+      "name": "Career Acceleration",
+      "text": "Through frameworks like The Offer Pipeline, we help developers, designers, analysts, and digital professionals increase visibility, access opportunities, and accelerate career growth."
+    },
+    {
+      "icon": "fa fa-users",
+      "name": "Community & Opportunity Network",
+      "text": "Scenius connects ambitious businesses, talented professionals, mentors, recruiters, and collaborators into a shared ecosystem where knowledge, opportunities, and partnerships thrive."
+    },
+    {
+      "icon": "fa fa-line-chart",
+      "name": "Growth Infrastructure Partnership",
+      "text": "For organizations serious about scale, we become a long-term strategic partner, continuously improving systems, identifying opportunities, and building the infrastructure needed for sustainable growth."
     }
   ],
 

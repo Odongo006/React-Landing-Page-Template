@@ -104,6 +104,7 @@ hr {
   #menu .logo-img {
     height: 30px; /* smaller logo on mobile screens */
   }
+  #header
     #about,
   #services,
   #testimonials,
@@ -119,6 +120,7 @@ hr {
     padding: 20px;
     width: 111%;
   }
+  #header
   #about,
   #services,
   #testimonials,
@@ -233,17 +235,7 @@ hr {
   #menu .logo-img {
     height: 30px;
   }
-  .intro {
-  display: table;
-  width: 100%;
-  padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
-  background-color: #7DF9FF;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
+
 
   #menu .navbar-header {
     flex-direction: row;
@@ -319,10 +311,11 @@ a:focus,
 /* Header Section */
 .intro {
   display: flex;
-  width: 100%;
-  padding: 0;
+  margin-right: 30px;
+  width: 111%;
+  padding:0;
   background: url(../img/BckGrnd2.jpg) center center no-repeat;
-  background-color: #7DF9FF;
+  background-color: #7EF9FF;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -334,7 +327,7 @@ a:focus,
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #FFD700;
-  font-size: 82px;
+  font-size: 60px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
@@ -346,7 +339,7 @@ a:focus,
 }
 .intro p {
   color: #FFFFFF;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 300;
   line-height: 30px;
   margin: 0 auto;
@@ -355,8 +348,8 @@ a:focus,
   font-weight: bolder;
 }
 header .intro-text {
-  padding-top: 350px;
-  padding-bottom: 200px;
+  padding-top: 200px;
+  padding-bottom: 150px;
   text-align: center;
 }
 /* Features Section */
@@ -382,24 +375,13 @@ header .intro-text {
   background-color: #000000;
   width: 100%;
   display: table;
-  padding: 100px 0;
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 
-.intro {
-  display: flex;
-  width: 100%;
-  padding: 0;
-  background: url(../img/BckGrnd2.jpg) center center no-repeat;
-  background-color: #000;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
 
 .intro .overlay {
   background: rgba(125, 249, 255, 0.2);
@@ -407,19 +389,31 @@ header .intro-text {
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #FFD700;
-  font-size: 70px;
+  font-size: 45px;
   font-weight: 800;
   text-transform: uppercase;
-  margin-top: 0;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 .intro h1 span {
   font-weight: 600;
   color: #5ca9fb;
 }
+.intro {
+  display: flex;
+  margin-right: 30px;
+  width: 111%;
+  padding:0;
+  background: url(../img/BckGrnd2.jpg) center center no-repeat;
+  background-color: #7EF9FF;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
 .intro p {
   color: #FFFFFF;
-  font-size: 20px;
+  font-size: 27px;
   font-weight: 400;
   line-height: 30px;
   margin: 0 auto;
@@ -428,8 +422,8 @@ header .intro-text {
   font-weight: bolder;
 }
 header .intro-text {
-  padding-top: 350px;
-  padding-bottom: 200px;
+  padding-top: 200px;
+  padding-bottom: 120px;
   text-align: center;
 }
 
@@ -562,8 +556,10 @@ header .intro-text {
 #about h3 {
   font-size: 22px;
   margin: 0 0 20px;
+  color: #fff;
 }
 #about h2 {
+  color: #fff;
   position: relative;
   margin-bottom: 15px;
   padding-bottom: 15px;
@@ -577,11 +573,13 @@ header .intro-text {
   bottom: 0;
   left: 0;
 }
+
 #about .about-text li {
   margin-bottom: 6px;
   margin-left: 6px;
   list-style: none;
   padding: 0;
+  color: #fff;
 }
 #about .about-text li:before {
   content: "\f00c";
@@ -601,6 +599,7 @@ header .intro-text {
 #about p {
   line-height: 24px;
   margin: 30px 0;
+  color: #FFFFFF;
 }
 /* Services Section */
 #services {
