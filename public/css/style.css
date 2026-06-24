@@ -312,7 +312,7 @@ a:focus,
 .intro {
   display: flex;
   margin-right: 30px;
-  width: 111%;
+  width: 100%;
   padding:0;
   background: url(../img/BckGrnd2.jpg) center center no-repeat;
   background-color: #7EF9FF;
